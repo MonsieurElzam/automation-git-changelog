@@ -1,0 +1,28 @@
+{
+  "name": "automation-git-changelog",
+  "version": "1.0.0",
+  "description": "Changelog from Git: dependency-free Node.js script",
+  "type": "module",
+  "license": "MIT",
+  "author": "Elzam MAMAH <ceo@monsieurelzam.com> (https://monsieurelzam.com)",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "automation-git-changelog": "src/git-changelog.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonsieurElzam/automation-git-changelog.git"
+  },
+  "homepage": "https://monsieurelzam.com/en/scripts",
+  "keywords": [
+    "automation",
+    "cli",
+    "nodejs",
+    "git-changelog"
+  ]
+}
